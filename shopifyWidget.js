@@ -61,7 +61,7 @@ function CreateWhatsappChatWidget(option = {
         jQuery('#whatsapp_chat_widget').append(`
             <div class='wa-chat-box'>
                 <div class='wa-chat-box-header'>
-                    <img class='wa-chat-box-brand' onError='this.src= "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png";' src='${option.brandSetting.brandImg}'/>
+                    <img class='wa-chat-box-brand' onError='this.src= "https://res.cloudinary.com/alihusnainarshad/images/v1670175859/Copy-of-new-logo-boltflare-update-1/Copy-of-new-logo-boltflare-update-1.jpg";' src='${option.brandSetting.brandImg}'/>
                     <div class='wa-chat-box-brand-text'>
                         <div class='wa-chat-box-brand-name'>${option.brandSetting.brandName}</div>
                         <div class='wa-chat-box-brand-subtitle'>${option.brandSetting.brandSubTitle}</div>
@@ -239,15 +239,6 @@ function CreateWhatsappChatWidget(option = {
             width: 41px;
             height: 50px;
             stroke: none;
-        }
-        .wa-chat-box-poweredby{
-            text-align: center;
-            font: 400 normal 15px/1.3 -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
-            margin-bottom: 15px;
-            margin-top: -10px;
-            font-style: italic;
-            font-size: 12px;
-            color: lightgray;
         }
         @media only screen and (max-width: 600px) {
             .wa-chat-box

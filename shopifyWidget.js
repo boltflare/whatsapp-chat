@@ -3,7 +3,7 @@ function CreateWhatsappChatWidget(option = {
         autoShow: true,
         backgroundColor: "#0a6114",
         borderRadius: "25",
-        brandImg: "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+        brandImg: "https://res.cloudinary.com/alihusnainarshad/images/v1670175859/Copy-of-new-logo-boltflare-update-1/Copy-of-new-logo-boltflare-update-1.jpg",
         brandImgData: null,
         brandName: "WATI",
         brandSubTitle: "Typically replies within a day",

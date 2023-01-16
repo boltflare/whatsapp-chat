@@ -211,7 +211,6 @@ function CreateWhatsappChatWidget(option = {
             ${option.chatButtonSetting.position == "left" ? "left : "+option.chatButtonSetting.marginLeft+"px" : "right : "+option.chatButtonSetting.marginRight+"px"};
             border-radius: 10px;
             box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
-            font: 400 normal 15px/1.3 -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Helvetica Neue, sans-serif;
         }
         #wa-widget-send-button {
             margin: 0 0 ${option.chatButtonSetting.marginBottom}px 0 !important;      
